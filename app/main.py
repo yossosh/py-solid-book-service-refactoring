@@ -23,7 +23,7 @@ def main(book: Book, commands: list[tuple[str, str]]) -> None | str:
             if cmd == "display":
                 manager.display()
             elif cmd == "print":
-                manager.print()
+                manager.print_book()
             elif cmd == "serialize":
                 return manager.serialize()
         else:

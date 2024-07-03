@@ -21,7 +21,7 @@ class BookManager:
         if self.display_strategy:
             self.display_strategy.display(self.book.content)
 
-    def print(self) -> None:
+    def print_book(self) -> None:
         if self.print_strategy:
             self.print_strategy.print(self.book.title, self.book.content)
 
